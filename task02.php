@@ -6,7 +6,7 @@ function dog_bark($bark){
     array_push($temp, "Woof");
   }
   
-  echo implode(" ", $temp) . PHP_EOL;
+  echo implode(" ", $temp) . "\n";
 }
 
 ?>
