@@ -20,8 +20,8 @@ function sequence($n){
       }
     }
     $last = '';
-    for($i = 0; $i < count($tt); $i++){
-      $last .= strlen($tt[$i]) . $tt[$i][0];
+    for($k = 0; $k < count($tt); $k++){
+      $last .= strlen($tt[$k]) . $tt[$k][0];
     }
   }
 }
